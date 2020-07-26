@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#container {
+    width: 600px;
+    margin: 50px auto;
+    background-color: royalblue;
+}
+
+#search {
+    background-color: orange;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+}
+
+#search label {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 10px 20px;
+}
+
+.name {
+    width: 100px;
+    text-align: center;
+    list-style: none;
+    padding: 5px 10px;
+    background-color: white;
+    margin: 5px 0;
+}
