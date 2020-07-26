@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 100px;
+    background-image: linear-gradient(135deg, #F6B8B8 , #1A8FF5);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper button {
+    background-color: orange;
+    padding: 10px 25px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px 50px;
+    width: 450px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
+
+#temperature {
+    height: 30px;
+}
