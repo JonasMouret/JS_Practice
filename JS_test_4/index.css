@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding-top: 100px;
+    background-image: linear-gradient(135deg, #F6B8B8 , #1A8FF5);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+    padding: 50px;
+}
+
+#message {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+#player1, #player2 {
+    flex: 0 0 50%;
+    text-align: center;
+}
+
+#player1Dice,
+#player2Dice {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    margin: 0 auto;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btnRoll,
+#reset {
+    background-color: royalblue;
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.active {
+    box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
+
+#reset {
+    display: none;
+}
